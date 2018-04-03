@@ -21,7 +21,7 @@
     <tbody>
     <c:forEach items="${students}" var="st">
         <tr>
-            <td>${st.id}</td>
+            <td><a href="/editStudentServlet?id=${st.id}">${st.id}</a></td>
             <td>${st.name}</td>
             <td>${st.surname}</td>
             <td>${st.phone}</td>
